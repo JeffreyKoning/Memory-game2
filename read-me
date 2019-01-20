@@ -1,0 +1,13 @@
+In de documentatie folder kan alle belangrijke documentatie met betrekking tot de educatieve memory game gevonden worden. 
+De volgende documenten zijn hierin aanwezig:
+- Technisch ontwerp
+- High Concept Document
+- Backlog met hierin de user stories van toepassing bij het ontwikkelen van de educatieve memory game.
+- Sprintverslagen met hierin een beschrijving over de reeds uitgevoerde sprints.
+- Testverslagen met hierin de beschrijving van de uitgevoerde tests en de resultaten hiervan.
+
+Neem deze documentatie zorgvuldig door. Op basis hiervan kan er een goed beeld gevormt worden van het uiteindelijke doel, 
+Welke onderdelen er reeds gerealiseerd zijn en welke onderdelen nog opgepakt moeten worden.
+
+Daarnaast zijn er twee versies van de software beschikbaar in deze repository. Versie 2 is hierbij de meest actuele.
+Wanneer er in het vervolg een nieuwe versie wordt ontwikkeld dient deze als versie 3 geupload te worden naar deze Github repository.
