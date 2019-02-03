@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Titel game -->
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="css/style.prefix.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/World.png">
+
+</head>
+
+<body>
+  <!--Link naar pagina met uitleg-->
+  <a href="uitleg.html" style="color: rgb(252, 249, 249)">Klik hier voor spel uitleg!</a><br />
+  <a href="index.html" style="color: rgb(252, 249, 249)" >Opnieuw beginnen</a><br />
+  <a href="leaderboard.html" style="color: rgb(252, 249, 249)" >Leaderboard</a> 
+
+    <!-- Score counter -->
+ <div id="score" style="color: rgb(252, 249, 249)" align="middle"><FONT SIZE="5"> </FONT>0</div>
+
+ <!-- Achtergrondmuziek-->
+<audio autoplay id="bgAudio">
+  <source src="sound/Ampyx-Forever.mp3" type="audio/mpeg" loop="true">
+</audio>
+
+  <div id="game"></div>
+
+  <!-- Stopwatch -->
+  <h1><time>00:00:00</time></h1>
+  <button id="start">Start</button>
+  <button id="stop">Stop</button>
+
+  <script src="js/script.babel.js"></script>
+</body>
+
+</html>
