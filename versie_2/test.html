@@ -1,0 +1,51 @@
+<head>
+    
+</head>
+
+<div class='wrapper'>
+        <form id='nameForm'>
+        <div class='form-uname'>
+            <lable id='nameLable' for='nameField'>Create a username:</lable>
+            <input id='nameField' type='text' maxlength='25'></input>
+        </div>
+        <div class='form-sub'>
+            <button id='subButton' type='button'>Print your name!</button>
+        </div>
+        </form>
+        
+        <div>
+            <p id='result'></p></div>
+        </div>
+
+
+<body>
+        <div id="container">
+            <br />
+        
+            <canvas width="500px" height="375px" id="canvas">
+            </canvas>
+            <img src="https://www.ecotoerisme.eu/wp-content/uploads/2018/01/Vlag-van-Spanje.jpg?swifty=1&ssw=396&sspr=2.625" />
+        
+        </div>
+        
+        <script>
+function getUserName() {
+var eerstenameField = document.getElementById('nameField').value;
+var result = document.getElementById('result');
+
+afbeelding1 = eerstenameField
+console.log(afbeelding1)
+
+if (nameField.length < 3) {
+    result.textContent = 'Username must contain at least 3 characters';
+    //alert('Username must contain at least 3 characters');
+} else {
+    result.textContent = 'Your username is: ' + eerstenameField;
+    //alert(nameField);
+}
+}
+var subButton = document.getElementById('subButton');
+subButton.addEventListener('click', getUserName, false);
+
+
+        </script>
